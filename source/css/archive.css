@@ -73,6 +73,8 @@
     }
 
     &-title {
+      font-family: 'Alegreya', Georgia, 'Times New Roman', Times, serif;
+      font-weight: 500;
       margin: 5px 0;
 
       a {
