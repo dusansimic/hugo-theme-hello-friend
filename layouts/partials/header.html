@@ -1,7 +1,9 @@
 <header class="header">
   <span class="header__inner">
-    {{ partial "logo.html" . }}
-    <span class="header__right">
+    <span class="header__logo">
+      {{ partial "logo.html" . }}
+    </span>
+    <span class="header__menu">
       {{ if len $.Site.Menus }}
         {{ partial "menu.html" . }}
         <span class="menu-trigger">
@@ -11,9 +13,6 @@
           </svg>
         </span>
       {{ end }}
-      <span class="theme-toggle">
-        {{ partial "theme-icon.html" . }}
-      </span>
     </span>
   </span>
 </header>

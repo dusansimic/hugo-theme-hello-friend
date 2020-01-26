@@ -40,12 +40,14 @@
       }
 
       &-header {
+        font-family: 'Alegreya', Georgia, 'Times New Roman', Times, serif;
         margin: 10px 0;
       }
     }
 
     &-month {
       &-header {
+        font-family: 'Alegreya', Georgia, 'Times New Roman', Times, serif;
         margin: 25px 0;
         width: 200px;
         opacity: .5;
@@ -83,4 +85,8 @@
       }
     }
   }
+}
+
+.archive h1 {
+  font-family: 'Alegreya', Georgia, 'Times New Roman', Times, serif;
 }

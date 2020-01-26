@@ -13,11 +13,10 @@
     display: inline-flex;
     align-items: center;
     margin-right: 5px;
-
-    @mixin greater-icon 8px;
   }
 
   &__text {
-    font-size: 1.125rem;
+    font-family: 'Alegreya', Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.75rem;
   }
 }
