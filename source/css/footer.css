@@ -52,5 +52,15 @@
       margin-top: 10px;
     }
   }
+
+  .theme-toggle {
+    display: flex;
+    flex-direction: row;
+
+    @media (--tablet) {
+      flex-direction: column;
+      margin-top: 10px;
+    }
+  }
 }
 
